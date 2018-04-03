@@ -44,22 +44,7 @@
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClickOnceTest.exe" size="7680">
       <assemblyIdentity name="ClickOnceTest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dYrWMoqqy/yTquVoT8Tt+HSNIE6ilSigUHoOP47sLPA=</dsig:DigestValue>
-      </hash>
     </dependentAssembly>
   </dependency>
-  <file name="ClickOnceTest.exe.config" size="189">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
-    </hash>
-  </file>
+  <file name="ClickOnceTest.exe.config" size="189" />
 </asmv1:assembly>
