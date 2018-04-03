@@ -1,0 +1,2 @@
+# ClickOnceTest
+ClickOnceのテスト
