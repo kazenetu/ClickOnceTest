@@ -8,19 +8,20 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
+    <deploymentProvider codebase="https://kazenetu.github.io/ClickOnceTest/doc/ClickOnceTest.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\ClickOnceTest_1_0_0_0\ClickOnceTest.exe.manifest" size="3819">
+    <dependentAssembly dependencyType="install" codebase="Application Files\ClickOnceTest_1_0_0_0\ClickOnceTest.exe.manifest" size="3567">
       <assemblyIdentity name="ClickOnceTest.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lkipV0U/d4BaVUMvVhfOlHiB1Srs2XJqK9O+evS4DcU=</dsig:DigestValue>
+        <dsig:DigestValue>NTfsyzUaJM/VZqhqT4l2/5fpUZcN+wANq/ZCVLtlZrc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
