@@ -61,3 +61,12 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+###############################################################################
+# ClickOnce files
+#
+# ClickOnce files are treated as binary by default.
+###############################################################################
+*.application   binary
+*.deploy        binary
+*.manifest      binary
