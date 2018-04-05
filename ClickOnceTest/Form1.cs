@@ -26,7 +26,7 @@ namespace ClickOnceTest
             }
 
             // 起動URLを表示
-            MessageBox.Show(ApplicationDeployment.CurrentDeployment.ActivationUri.AbsoluteUri);
+            MessageBox.Show(ApplicationDeployment.CurrentDeployment.UpdateLocation.AbsoluteUri);
         }
     }
 }
